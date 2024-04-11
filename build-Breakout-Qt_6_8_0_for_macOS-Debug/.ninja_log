@@ -1,0 +1,12 @@
+# ninja log v5
+1	674	1712826628379458361	Breakout_autogen/timestamp	9b123f2daeb6e09f
+1	674	1712826628379458361	Breakout_autogen/mocs_compilation.cpp	9b123f2daeb6e09f
+1	674	1712826628379458361	/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/timestamp	9b123f2daeb6e09f
+1	674	1712826628379458361	/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/mocs_compilation.cpp	9b123f2daeb6e09f
+675	4817	1712826632532010097	CMakeFiles/Breakout.dir/Breakout_autogen/mocs_compilation.cpp.o	6698668ea21014f5
+676	4829	1712826632524610238	CMakeFiles/Breakout.dir/paddle.cpp.o	6e36b51460638948
+677	4832	1712826632524230813	CMakeFiles/Breakout.dir/block.cpp.o	90b75214708b1ae9
+674	5211	1712826632934878000	CMakeFiles/Breakout.dir/main.cpp.o	85ff8fa42ca85c7f
+676	5228	1712826632954846249	CMakeFiles/Breakout.dir/game.cpp.o	97d84aa7f21c567a
+677	5268	1712826632996787759	CMakeFiles/Breakout.dir/ball.cpp.o	34a4bfe6bfcbf2e9
+5269	5620	1712826633352528068	Breakout.app/Contents/MacOS/Breakout	bd6b4e9156e1503
