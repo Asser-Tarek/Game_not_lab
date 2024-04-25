@@ -95,3 +95,11 @@
 14	90	1714076895827669132	/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/mocs_compilation.cpp	9b123f2daeb6e09f
 92	2235	1714076897960038021	CMakeFiles/Breakout.dir/ball.cpp.o	34a4bfe6bfcbf2e9
 2235	2448	1714076898175959910	Breakout.app/Contents/MacOS/Breakout	bd6b4e9156e1503
+17	291	1714079590554688000	Breakout_autogen/timestamp	9b123f2daeb6e09f
+17	291	1714079590554688000	Breakout_autogen/mocs_compilation.cpp	9b123f2daeb6e09f
+17	291	1714079590554688000	/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/timestamp	9b123f2daeb6e09f
+17	291	1714079590554688000	/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/mocs_compilation.cpp	9b123f2daeb6e09f
+291	1985	1714079592257082547	CMakeFiles/Breakout.dir/Breakout_autogen/mocs_compilation.cpp.o	6698668ea21014f5
+291	2215	1714079592488496007	CMakeFiles/Breakout.dir/game.cpp.o	97d84aa7f21c567a
+291	2224	1714079592500270694	CMakeFiles/Breakout.dir/ball.cpp.o	34a4bfe6bfcbf2e9
+2225	2422	1714079592697416792	Breakout.app/Contents/MacOS/Breakout	bd6b4e9156e1503

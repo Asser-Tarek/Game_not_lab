@@ -7,7 +7,7 @@
 
 extern Game* game;
 
-Ball::Ball(QGraphicsItem *parent): QGraphicsRectItem(parent), QObject()
+Ball::Ball(QGraphicsItem *parent): QGraphicsEllipseItem(parent), QObject()
 {
     // draw rect
     setRect(0,0,50,50);

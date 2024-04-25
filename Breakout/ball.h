@@ -3,7 +3,7 @@
 
 #include <QGraphicsRectItem>
 
-class Ball: public QObject, public QGraphicsRectItem
+class Ball: public QObject, public QGraphicsEllipseItem
 {
     Q_OBJECT
 public:

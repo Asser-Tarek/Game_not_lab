@@ -108,8 +108,8 @@ void *Ball::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_CLASSBallENDCLASS.stringdata0))
         return static_cast<void*>(this);
-    if (!strcmp(_clname, "QGraphicsRectItem"))
-        return static_cast< QGraphicsRectItem*>(this);
+    if (!strcmp(_clname, "QGraphicsEllipseItem"))
+        return static_cast< QGraphicsEllipseItem*>(this);
     return QObject::qt_metacast(_clname);
 }
 
