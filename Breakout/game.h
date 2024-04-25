@@ -4,17 +4,17 @@
 #include <QGraphicsView>
 #include <QGraphicsScene>
 
-class Game: public QGraphicsView{
+class Game: public QGraphicsView
+{
 public:
-    // constructors
     Game(QWidget* parent=NULL);
 
-    // public methods
-    void start();
-    void createBlockCol(double x);
-    void creatBlockGrid();
 
-    // public attributes
+    void start();
+    void create_block_colomn(double x);
+    void create_block_grid();
+
+
     QGraphicsScene* scene;
 
 };

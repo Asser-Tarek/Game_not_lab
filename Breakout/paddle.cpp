@@ -1,7 +1,8 @@
 #include "paddle.h"
 #include <QBrush>
 
-Paddle::Paddle(QGraphicsItem *parent){
+Paddle::Paddle(QGraphicsItem *parent)
+{
     // draw rect
     setRect(0,0,100,15);
     QBrush brush;
@@ -10,12 +11,13 @@ Paddle::Paddle(QGraphicsItem *parent){
     setBrush(brush);
 }
 
-double Paddle::getCenterX(){
-    return x()+rect().width()/2;
+double Paddle::getCenterX()
+{
+    return x() + rect().width()/2;
 }
 
-void Paddle::mouseMoveEvent(QGraphicsSceneMouseEvent *event){
-    // follow mouse's x pos
+void Paddle::mouseMoveEvent(QGraphicsSceneMouseEvent *event)
+{
     double mouseX = mapToScene(event->pos()).x();
     setPos(mouseX,y());
 }

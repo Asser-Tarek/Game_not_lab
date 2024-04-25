@@ -7,12 +7,13 @@
 
 extern Game* game;
 
-Ball::Ball(QGraphicsItem *parent): QGraphicsRectItem(parent), QObject(){
+Ball::Ball(QGraphicsItem *parent): QGraphicsRectItem(parent), QObject()
+{
     // draw rect
     setRect(0,0,50,50);
     QBrush brush;
     brush.setStyle(Qt::SolidPattern);
-    brush.setColor(Qt::red);
+    brush.setColor(Qt::magenta);
     setBrush(brush);
 
     // move up right initially
@@ -24,50 +25,63 @@ Ball::Ball(QGraphicsItem *parent): QGraphicsRectItem(parent), QObject(){
     timer->start(15);
 }
 
-double Ball::getCenterX(){
+double Ball::getCenterX()
+{
     return x() + rect().width()/2;
 }
 
-void Ball::move(){
+void Ball::move()
+{
     // if out of bounds, reverse the velocity
-    reverseVelocityIfOutOfBounds();
+    reverse_velocity_out_of_bounds();
 
     // if collides with paddle, reverse yVelocity, and add xVelocity
     // depending on where (in the x axis) the ball hits the paddle
-    handlePaddleCollision();
+    paddle_collision();
 
     // handle collisions with blocks (destroy blocks and reverse ball velocity)
-    handleBlockCollision();
+    block_collision();
 
     moveBy(xVelocity,yVelocity);
+
+    if (y() + 50 > 600)
+    {
+        gameover();
+    }
 }
 
-void Ball::reverseVelocityIfOutOfBounds(){
+void Ball::reverse_velocity_out_of_bounds()
+{
     // check if out of bound, if so, reverse the proper velocity
     double screenW = game->width();
     double screenH = game->height();
 
     // left edge
-    if (mapToScene(rect().topLeft()).x() <= 0){
+    if (mapToScene(rect().topLeft()).x() <= 0)
+    {
         xVelocity = -1 * xVelocity;
     }
 
     // right edge
-    if (mapToScene(rect().topRight()).x() >= screenW){
+    if (mapToScene(rect().topRight()).x() >= screenW)
+    {
         xVelocity = -1 * xVelocity;
     }
 
     // top edge
-    if (mapToScene(rect().topLeft()).y() <= 0){
+    if (mapToScene(rect().topLeft()).y() <= 0)
+    {
         yVelocity = -1 * yVelocity;
     }
 
     // bottom edge - NONE (can fall through bottom)
 }
 
-void Ball::handlePaddleCollision(){
+void Ball::paddle_collision()
+{
     QList<QGraphicsItem*> cItems = collidingItems();
-    for (size_t i = 0, n = cItems.size(); i < n; ++i){
+    for (size_t i = 0, n = cItems.size(); i < n; ++i)
+    {
         Paddle* paddle = dynamic_cast<Paddle*>(cItems[i]);
         if (paddle){
             // collides with paddle
@@ -87,12 +101,17 @@ void Ball::handlePaddleCollision(){
     }
 }
 
-void Ball::handleBlockCollision(){
+
+
+void Ball::block_collision()
+{   
     QList<QGraphicsItem*> cItems = collidingItems();
-    for (size_t i = 0, n = cItems.size(); i < n; ++i){
+    for (size_t i = 0, n = cItems.size(); i < n; ++i)
+    {
         Block* block = dynamic_cast<Block*>(cItems[i]);
         // collides with block
-        if (block){
+        if (block)
+        {
             double yPad = 15;
             double xPad = 15;
             double ballx = pos().x();
@@ -101,28 +120,52 @@ void Ball::handleBlockCollision(){
             double blocky = block->pos().y();
 
             // collides from bottom
-            if (bally > blocky + yPad && yVelocity < 0){
+            if (bally > blocky + yPad && yVelocity < 0)
+            {
                 yVelocity = -1 * yVelocity;
             }
 
             // collides from top
-            if (blocky > bally + yPad && yVelocity > 0 ){
+            if (blocky > bally + yPad && yVelocity > 0 )
+            {
                 yVelocity = -1 * yVelocity;
             }
 
             // collides from right
-            if (ballx > blockx + xPad && xVelocity < 0){
+            if (ballx > blockx + xPad && xVelocity < 0)
+            {
                 xVelocity = -1 * xVelocity;
             }
 
             // collides from left
-            if (blockx > ballx + xPad && xVelocity > 0){
+            if (blockx > ballx + xPad && xVelocity > 0)
+            {
                 xVelocity = -1 * xVelocity;
             }
 
             // delete block(s)
             game->scene->removeItem(block);
             delete block;
+
         }
     }
+}
+
+void Ball::gameover()
+{
+    for(size_t i = 0, n = scene()->items().size(); i < n; i++)
+    {
+        scene()->items()[i] -> setEnabled(false);
+    }
+
+    QGraphicsTextItem *gameover = new QGraphicsTextItem;
+    gameover->setFont (QFont ("Times New Roman", 70)) ;
+    gameover->setDefaultTextColor(Qt::red);
+    gameover->setPlainText("Game Over");
+    gameover->setPos (330, 250) ;
+
+    scene()->addItem (gameover);
+
+    scene()->removeItem(this);
+    delete this;
 }
