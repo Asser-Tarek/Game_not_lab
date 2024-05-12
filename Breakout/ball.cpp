@@ -42,6 +42,9 @@ void Ball::move()
     // handle collisions with blocks (destroy blocks and reverse ball velocity)
     block_collision();
 
+    // this function runs when there are only two objects in the scene
+    win();
+
     moveBy(xVelocity,yVelocity);
 
     if (y() + 50 > 600)
@@ -169,3 +172,20 @@ void Ball::gameover()
     scene()->removeItem(this);
     delete this;
 }
+
+
+
+
+void Ball::win()
+{
+    if (scene()->items().size() == 2) // Assuming only the ball and paddle are present
+    {
+        QGraphicsTextItem *winMessage = new QGraphicsTextItem;
+        winMessage->setFont(QFont("Times New Roman", 70));
+        winMessage->setDefaultTextColor(Qt::green);
+        winMessage->setPlainText("Win!");
+        winMessage->setPos(350, 250);
+        scene()->addItem(winMessage);
+    }
+}
+

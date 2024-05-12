@@ -16,6 +16,8 @@ public slots:
 
     void move();
     void gameover();
+    void win();
+
 
 private:
 
