@@ -167,7 +167,9 @@ void Ball::gameover()
     gameover->setPlainText("Game Over");
     gameover->setPos (330, 250) ;
 
-    scene()->addItem (gameover);
+    Joever joever;
+    joever.isVisible();
+    joever.exec();
 
     scene()->removeItem(this);
     delete this;

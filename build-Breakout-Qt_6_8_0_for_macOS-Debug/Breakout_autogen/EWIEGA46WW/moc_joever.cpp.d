@@ -1,4 +1,5 @@
-Breakout_autogen/timestamp: \
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/EWIEGA46WW/moc_joever.cpp: /Users/asser/Desktop/game_not_lab/Breakout/joever.h \
+  /Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h \
@@ -89,24 +90,6 @@ Breakout_autogen/timestamp: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Users/asser/Desktop/game_not_lab/Breakout/CMakeLists.txt \
-  /Users/asser/Desktop/game_not_lab/Breakout/ball.cpp \
-  /Users/asser/Desktop/game_not_lab/Breakout/ball.h \
-  /Users/asser/Desktop/game_not_lab/Breakout/block.cpp \
-  /Users/asser/Desktop/game_not_lab/Breakout/block.h \
-  /Users/asser/Desktop/game_not_lab/Breakout/game.cpp \
-  /Users/asser/Desktop/game_not_lab/Breakout/game.h \
-  /Users/asser/Desktop/game_not_lab/Breakout/joever.cpp \
-  /Users/asser/Desktop/game_not_lab/Breakout/joever.h \
-  /Users/asser/Desktop/game_not_lab/Breakout/joever.ui \
-  /Users/asser/Desktop/game_not_lab/Breakout/main.cpp \
-  /Users/asser/Desktop/game_not_lab/Breakout/paddle.cpp \
-  /Users/asser/Desktop/game_not_lab/Breakout/paddle.h \
-  /Users/asser/Desktop/game_not_lab/Breakout/resources.qrc \
-  .qtc/package-manager/auto-setup.cmake \
-  Breakout_autogen/moc_predefs.h \
-  CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.27.7/CMakeSystem.cmake \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -237,7 +220,6 @@ Breakout_autogen/timestamp: \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
@@ -251,250 +233,9 @@ Breakout_autogen/timestamp: \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsRectItem \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/FindWrapAtomic.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/FindWrapOpenGL.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/Qt6Config.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/Qt6Dependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/Qt6Targets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtFeature.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtFeatureCommon.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/macos/Info.plist.app.in \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CorePlugins.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinBluetoothPermissionPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCalendarPermissionPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinContactsPermissionPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinLocationPermissionPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/Qt6QDarwinMicrophonePermissionPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Core/QtInstallPaths.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QCocoaIntegrationPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QInsightTrackerPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMacHeifPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMacJp2PluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
-  /Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/bin/cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeGenericSystem.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CheckIncludeFileCXX.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/CheckLibraryExists.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Compiler/AppleClang-CXX.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Compiler/Clang.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Compiler/GNU.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/FindOpenGL.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/FindPackageMessage.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/FindThreads.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/GNUInstallDirs.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/MacroAddFileDependencies.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Apple-AppleClang-CXX.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Apple-Clang-CXX.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Apple-Clang.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Darwin-Initialize.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/Darwin.cmake \
-  /Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/Platform/UnixPaths.cmake
+  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h

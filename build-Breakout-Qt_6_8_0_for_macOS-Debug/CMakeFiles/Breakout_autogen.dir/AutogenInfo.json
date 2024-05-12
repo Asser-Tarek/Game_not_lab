@@ -333,7 +333,8 @@
 		"/Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-relwithdebinfo.cmake",
 		"/Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake",
 		"/Users/asser/Qt/Tools/CMake/CMake.app/Contents/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
-		"/Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/macos/Info.plist.app.in"
+		"/Users/asser/Qt/6.8.0/macos/lib/cmake/Qt6/macos/Info.plist.app.in",
+		"/Users/asser/Desktop/game_not_lab/Breakout/resources.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/asser/Desktop/game_not_lab/Breakout",
 	"DEP_FILE" : "/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/deps",
@@ -356,6 +357,12 @@
 			"/Users/asser/Desktop/game_not_lab/Breakout/game.h",
 			"MU",
 			"EWIEGA46WW/moc_game.cpp",
+			null
+		],
+		[
+			"/Users/asser/Desktop/game_not_lab/Breakout/joever.h",
+			"MU",
+			"EWIEGA46WW/moc_joever.cpp",
 			null
 		],
 		[
@@ -425,6 +432,7 @@
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/ball.cpp", "MU", null ],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/block.cpp", "MU", null ],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/game.cpp", "MU", null ],
+		[ "/Users/asser/Desktop/game_not_lab/Breakout/joever.cpp", "MU", null ],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/main.cpp", "MU", null ],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/paddle.cpp", "MU", null ]
 	],

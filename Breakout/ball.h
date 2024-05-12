@@ -1,6 +1,7 @@
 #ifndef BALL_H
 #define BALL_H
 
+#include "joever.h"
 #include <QGraphicsRectItem>
 
 class Ball: public QObject, public QGraphicsEllipseItem

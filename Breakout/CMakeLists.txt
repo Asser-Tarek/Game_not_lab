@@ -25,6 +25,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         paddle.h paddle.cpp
         block.h block.cpp
         ball.h ball.cpp
+        resources.qrc
+        joever.h joever.cpp joever.ui
+
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET Breakout APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
