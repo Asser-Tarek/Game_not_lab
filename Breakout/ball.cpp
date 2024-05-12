@@ -20,12 +20,13 @@ Ball::Ball(QGraphicsItem *parent): QGraphicsEllipseItem(parent), QObject()
     xVelocity = 0;
     yVelocity = -5;
 
+    // speed of the ball
     QTimer* timer = new QTimer();
     connect(timer,SIGNAL(timeout()),this,SLOT(move()));
     timer->start(15);
 }
 
-double Ball::getCenterX()
+double Ball::getCenterX() // ?
 {
     return x() + rect().width()/2;
 }
@@ -77,10 +78,11 @@ void Ball::reverse_velocity_out_of_bounds()
     // bottom edge - NONE (can fall through bottom)
 }
 
+//function that deals with how the paddle behaves with the ball
 void Ball::paddle_collision()
 {
     QList<QGraphicsItem*> cItems = collidingItems();
-    for (size_t i = 0, n = cItems.size(); i < n; ++i)
+    for (size_t i = 0, n = cItems.size(); i < n; ++i)   // changing to " i = 0" makes the ball phase through the paddle
     {
         Paddle* paddle = dynamic_cast<Paddle*>(cItems[i]);
         if (paddle){
