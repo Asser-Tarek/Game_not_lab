@@ -161,15 +161,12 @@ void Ball::gameover()
         scene()->items()[i] -> setEnabled(false);
     }
 
-    QGraphicsTextItem *gameover = new QGraphicsTextItem;
-    gameover->setFont (QFont ("Times New Roman", 70)) ;
-    gameover->setDefaultTextColor(Qt::red);
-    gameover->setPlainText("Game Over");
-    gameover->setPos (330, 250) ;
 
-    Joever joever;
-    joever.isVisible();
-    joever.exec();
+    Joever* joever = new Joever();
+    QGraphicsProxyWidget *proxy = new QGraphicsProxyWidget();
+    proxy->setWidget(joever);
+    scene()->addItem(proxy);
+    proxy->setPos(225,50);
 
     scene()->removeItem(this);
     delete this;
@@ -180,14 +177,29 @@ void Ball::gameover()
 
 void Ball::win()
 {
-    if (scene()->items().size() == 2) // Assuming only the ball and paddle are present
+    QGraphicsScene *currentScene = scene();
+
+    if (currentScene && currentScene->items().size() == 2)
     {
+        for (size_t i = 0; i < 2; ++i)
+        {
+            QGraphicsItem *item = currentScene->items()[i];
+            item->setEnabled(false);
+        }
+
+        xVelocity = 0;
+        yVelocity = 0;
+
         QGraphicsTextItem *winMessage = new QGraphicsTextItem;
         winMessage->setFont(QFont("Times New Roman", 70));
         winMessage->setDefaultTextColor(Qt::green);
         winMessage->setPlainText("Win!");
-        winMessage->setPos(350, 250);
-        scene()->addItem(winMessage);
+        const int winMessageX = 350;
+        const int winMessageY = 250;
+        winMessage->setPos(winMessageX, winMessageY);
+        currentScene->addItem(winMessage);
+
+        // Clean up memory
+        // delete winMessage; // Uncomment if you're managing memory manually
     }
 }
-

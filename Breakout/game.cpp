@@ -32,7 +32,7 @@ void Game::start()
 
 void Game::create_block_colomn(double x)
 {
-    for (size_t i = 0, n = 5; i < n; i++)
+    for (size_t i = 0, n = 1; i < n; i++)
     {
         Block* block = new Block();
         block->setPos(x,i*52); // 2 space b/w blocks (50 height of block)
@@ -42,7 +42,7 @@ void Game::create_block_colomn(double x)
 
 void Game::create_block_grid()
 {
-    for (size_t i = 0, n = 20; i < n; i++)
+    for (size_t i = 0, n = 1; i < n; i++)
     {
         create_block_colomn(i*50);
     }

@@ -90,6 +90,7 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
+  /Users/asser/Desktop/game_not_lab/Breakout/test.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \

@@ -370,6 +370,12 @@
 			"MU",
 			"EWIEGA46WW/moc_paddle.cpp",
 			null
+		],
+		[
+			"/Users/asser/Desktop/game_not_lab/Breakout/test.h",
+			"MU",
+			"EWIEGA46WW/moc_test.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -434,7 +440,8 @@
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/game.cpp", "MU", null ],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/joever.cpp", "MU", null ],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/main.cpp", "MU", null ],
-		[ "/Users/asser/Desktop/game_not_lab/Breakout/paddle.cpp", "MU", null ]
+		[ "/Users/asser/Desktop/game_not_lab/Breakout/paddle.cpp", "MU", null ],
+		[ "/Users/asser/Desktop/game_not_lab/Breakout/test.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

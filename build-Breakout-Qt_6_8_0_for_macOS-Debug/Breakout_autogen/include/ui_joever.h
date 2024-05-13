@@ -28,10 +28,10 @@ public:
     {
         if (Joever->objectName().isEmpty())
             Joever->setObjectName("Joever");
-        Joever->resize(551, 501);
+        Joever->resize(550, 500);
         label = new QLabel(Joever);
         label->setObjectName("label");
-        label->setGeometry(QRect(37, 25, 471, 381));
+        label->setGeometry(QRect(57, 25, 431, 371));
         pushButton = new QPushButton(Joever);
         pushButton->setObjectName("pushButton");
         pushButton->setGeometry(QRect(49, 431, 171, 51));

@@ -1,4 +1,4 @@
-/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/EWIEGA46WW/moc_ball.cpp: /Users/asser/Desktop/game_not_lab/Breakout/ball.h \
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/EWIEGA46WW/moc_test.cpp: /Users/asser/Desktop/game_not_lab/Breakout/test.h \
   /Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/moc_predefs.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/Availability.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h \
@@ -90,13 +90,6 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Users/asser/Desktop/game_not_lab/Breakout/joever.h \
-  /Users/asser/Desktop/game_not_lab/Breakout/test.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QRect \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -126,16 +119,10 @@
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcoreapplication_platform.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qendian.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qflags.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
@@ -147,14 +134,12 @@
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qhash.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qline.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qlist.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qmap.h \
@@ -164,7 +149,6 @@
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qnativeinterface.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qobject.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
@@ -217,59 +201,39 @@
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qurl.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/QTransform \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qaction.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qevent.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qeventpoint.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qfont.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qguiapplication.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qguiapplication_platform.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qicon.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qiconconstants_impl.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qimage.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qinputdevice.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qregion.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qvector2d.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsProxyWidget \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsRectItem \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicslayoutitem.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsproxywidget.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicswidget.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \

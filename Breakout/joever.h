@@ -2,6 +2,7 @@
 #define JOEVER_H
 
 #include <QDialog>
+#include "test.h"
 
 namespace Ui {
 class Joever;
@@ -14,6 +15,9 @@ class Joever : public QDialog
 public:
     explicit Joever(QWidget *parent = nullptr);
     ~Joever();
+
+private slots:
+    void on_pushButton_clicked();
 
 private:
     Ui::Joever *ui;

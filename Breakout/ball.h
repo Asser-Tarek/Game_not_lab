@@ -3,6 +3,7 @@
 
 #include "joever.h"
 #include <QGraphicsRectItem>
+#include <QGraphicsProxyWidget>
 
 class Ball: public QObject, public QGraphicsEllipseItem
 {
