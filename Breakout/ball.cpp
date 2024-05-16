@@ -1,11 +1,10 @@
 #include "ball.h"
 #include <QTimer>
 #include <QBrush>
-#include "game.h"
 #include "paddle.h"
 #include "block.h"
 
-extern Game* game; //external global object called game
+extern Game* game;
 
 Ball::Ball(QGraphicsItem *parent): QGraphicsEllipseItem(parent), QObject()
 {
@@ -18,20 +17,19 @@ Ball::Ball(QGraphicsItem *parent): QGraphicsEllipseItem(parent), QObject()
 
     // move up right initially
     xVelocity = 0;
-    yVelocity = -5;
+    yVelocity = -6;
 
     QTimer* timer = new QTimer();
     connect(timer,SIGNAL(timeout()),this,SLOT(move()));
-    timer->start(10);
+    timer->start(15);
+
 }
 
 double Ball::getCenterX()
 {
     return x() + rect().width()/2;
 }
-
 int count = 3;
-
 void Ball::move()
 {
     // if out of bounds, reverse the velocity
@@ -52,8 +50,7 @@ void Ball::move()
     if (y() + 50 > 600)
     {
         // move up right initially
-        xVelocity = 0;
-        yVelocity = -5;
+        yVelocity = -1 * yVelocity;
 
         count--;
 
@@ -61,7 +58,7 @@ void Ball::move()
 
         if(count==0){
 
-         gameover();
+            gameover();
 
         }
     }
@@ -103,8 +100,6 @@ void Ball::paddle_collision()
         if (paddle){
             // collides with paddle
 
-
-
             // reverse the y velocity
             yVelocity = -1 * yVelocity;
 
@@ -131,8 +126,6 @@ void Ball::block_collision()
         // collides with block
         if (block)
         {
-
-
             double yPad = 15;
             double xPad = 15;
             double ballx = pos().x();
@@ -175,63 +168,48 @@ void Ball::block_collision()
     }
 }
 
-//int health_ = 3
-//
-//    void health_left();
-//{
-//    health_--;
-//}
-//
-
-
-
-
 void Ball::gameover()
 {
-
-    // set ball pos after it falls back to origin with a slow speed
-
-    // am IF statement connected to the heath when it goes down to zero
-
-
-
-
     for(size_t i = 0, n = scene()->items().size(); i < n; i++)
     {
         scene()->items()[i] -> setEnabled(false);
     }
 
-    QGraphicsTextItem *gameover = new QGraphicsTextItem;
-    gameover->setFont (QFont ("Times New Roman", 70)) ;
-    gameover->setDefaultTextColor(Qt::red);
-    gameover->setPlainText("Game Over");
-    gameover->setPos (330, 250) ;
 
-    Joever joever;
-    joever.isVisible();
-    joever.exec();
+    Joever* joever = new Joever();
+    QGraphicsProxyWidget *proxy = new QGraphicsProxyWidget();
+    proxy->setWidget(joever);
+    scene()->addItem(proxy);
+    proxy->setPos(190,50);
 
     scene()->removeItem(this);
     delete this;
-
-
-
 }
-
 
 
 
 
 void Ball::win()
 {
-    if (scene()->items().size() == 2) // Assuming only the ball and paddle are present
+
+    QGraphicsScene *currentScene = scene();
+
+    if (currentScene && currentScene->items().size() == 4)
     {
-        QGraphicsTextItem *winMessage = new QGraphicsTextItem;
-        winMessage->setFont(QFont("Times New Roman", 70));
-        winMessage->setDefaultTextColor(Qt::green);
-        winMessage->setPlainText("Win!");
-        winMessage->setPos(350, 250);
-        scene()->addItem(winMessage);
+        for (size_t i = 0; i < 4; ++i)
+        {
+            QGraphicsItem *item = currentScene->items()[i];
+            item->setEnabled(false);
+        }
+
+        xVelocity = 0;
+        yVelocity = 0;
+
+        Wien* wien = new Wien();
+        QGraphicsProxyWidget *proxy2 = new QGraphicsProxyWidget();
+        proxy2->setWidget(wien);
+        scene()->addItem(proxy2);
+        proxy2->setPos(190,50);
+
     }
 }
-

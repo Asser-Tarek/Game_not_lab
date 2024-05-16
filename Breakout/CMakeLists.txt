@@ -27,10 +27,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ball.h ball.cpp
         resources.qrc
         joever.h joever.cpp joever.ui
-        Score.h
-        Score.cpp
-        Health.cpp
-        Health.h
+
+        score.h score.cpp
+        health.h health.cpp
+        wien.h wien.cpp wien.ui
+
+
 
 
 

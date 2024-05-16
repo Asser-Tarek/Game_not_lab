@@ -11,7 +11,7 @@ public:
     // creating the member functions of health
 
 
-        Health(QGraphicsItem * parent=0);
+    Health(QGraphicsItem * parent=0);
 
     void decrease();  // decreases health
 

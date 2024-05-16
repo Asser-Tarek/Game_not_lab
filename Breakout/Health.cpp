@@ -1,5 +1,5 @@
-#include "Health.h"
-//#include <QFont>
+#include "health.h"
+#include <QFont>
 
 
 Health::Health(QGraphicsItem *parent) : QGraphicsTextItem(parent)
@@ -14,7 +14,7 @@ Health::Health(QGraphicsItem *parent) : QGraphicsTextItem(parent)
 
     setDefaultTextColor(Qt::red);
 
-    // setFont(QFont("times",16)); //changes the font and size
+    setFont(QFont("times",16)); //changes the font and size
 
 
 

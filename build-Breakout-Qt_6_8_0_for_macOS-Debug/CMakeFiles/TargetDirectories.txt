@@ -1,0 +1,9 @@
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/Breakout.dir
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/edit_cache.dir
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/rebuild_cache.dir
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/list_install_components.dir
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/install.dir
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/install/local.dir
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/install/strip.dir
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/Breakout_autogen_timestamp_deps.dir
+/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/Breakout_autogen.dir

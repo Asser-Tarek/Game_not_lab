@@ -2,18 +2,18 @@
 #define SCORE_H
 
 #include <QGraphicsTextItem>
+#
 
 class Score : public QGraphicsTextItem{
+
 public:
 
     // creating the member functions of score,
-
-
-    Score(QGraphicsItem * parent=0);
+    Score(QGraphicsItem * parent = 0);
 
     void increase();  // increases score
 
-    int getScore(); // diplays the score
+    int get_score(); // diplays the score
 
 private:
     int score; // keeps track of the score

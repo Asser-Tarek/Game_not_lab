@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-70a4c7acc421fb3b510c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Breakout",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Breakout::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Breakout-Debug-b7eaf6a6fccd51b95f3f.json",
+					"name" : "Breakout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Breakout_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Breakout_autogen-Debug-ed69d19293de1e705d96.json",
+					"name" : "Breakout_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Breakout_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Breakout_autogen_timestamp_deps-Debug-cab14ddfc6f0071ed80c.json",
+					"name" : "Breakout_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug",
+		"source" : "/Users/asser/Desktop/game_not_lab/Breakout"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

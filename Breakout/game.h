@@ -3,10 +3,8 @@
 
 #include <QGraphicsView>
 #include <QGraphicsScene>
-
-#include "Score.h"
-#include "Health.h";
-
+#include "health.h"
+#include "score.h"
 
 class Game: public QGraphicsView
 {
@@ -17,13 +15,11 @@ public:
     void start();
     void create_block_colomn(double x);
     void create_block_grid();
-
+    void set();
 
     QGraphicsScene* scene;
-
-    Score * score;
-
-    Health * health;
+    Score* score;
+    Health* health;
 
 };
 

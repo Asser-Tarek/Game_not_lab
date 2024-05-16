@@ -15,6 +15,9 @@ public:
     explicit Joever(QWidget *parent = nullptr);
     ~Joever();
 
+private slots:
+
+
 private:
     Ui::Joever *ui;
 };

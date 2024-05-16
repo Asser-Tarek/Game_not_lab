@@ -2,7 +2,12 @@
 #define BALL_H
 
 #include "joever.h"
+#include "game.h"
+#include "score.h"
+#include "health.h"
+#include "wien.h"
 #include <QGraphicsRectItem>
+#include <QGraphicsProxyWidget>
 
 class Ball: public QObject, public QGraphicsEllipseItem
 {
