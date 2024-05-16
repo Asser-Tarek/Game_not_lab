@@ -1,5 +1,5 @@
 #include "ball.h"
-#include <QTimer>
+#include "game.h"
 #include <QBrush>
 #include "paddle.h"
 #include "block.h"
@@ -19,10 +19,24 @@ Ball::Ball(QGraphicsItem *parent): QGraphicsEllipseItem(parent), QObject()
     xVelocity = 0;
     yVelocity = -6;
 
-    QTimer* timer = new QTimer();
+
+    startTimer();
+}
+
+void Ball::startTimer()
+{
+    timer = new QTimer();
     connect(timer,SIGNAL(timeout()),this,SLOT(move()));
     timer->start(15);
+}
 
+void Ball::endTimer()
+{
+    if(timer!=nullptr)
+    {
+        delete timer;
+        timer = nullptr;
+    }
 }
 
 double Ball::getCenterX()
@@ -43,7 +57,6 @@ void Ball::move()
     block_collision();
 
     // this function runs when there are only two objects in the scene
-    win();
 
     moveBy(xVelocity,yVelocity);
 
@@ -161,9 +174,8 @@ void Ball::block_collision()
             }
 
             // delete block(s)
-            game->scene->removeItem(block);
-            delete block;
 
+            game->hitBlock(block);
         }
     }
 }
@@ -182,34 +194,5 @@ void Ball::gameover()
     scene()->addItem(proxy);
     proxy->setPos(190,50);
 
-    scene()->removeItem(this);
-    delete this;
-}
-
-
-
-
-void Ball::win()
-{
-
-    QGraphicsScene *currentScene = scene();
-
-    if (currentScene && currentScene->items().size() == 4)
-    {
-        for (size_t i = 0; i < 4; ++i)
-        {
-            QGraphicsItem *item = currentScene->items()[i];
-            item->setEnabled(false);
-        }
-
-        xVelocity = 0;
-        yVelocity = 0;
-
-        Wien* wien = new Wien();
-        QGraphicsProxyWidget *proxy2 = new QGraphicsProxyWidget();
-        proxy2->setWidget(wien);
-        scene()->addItem(proxy2);
-        proxy2->setPos(190,50);
-
-    }
+    game->pause();
 }

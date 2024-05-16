@@ -1,12 +1,13 @@
 #include "wien.h"
 #include "ui_wien.h"
 
-Game* game_new;
+extern Game* game;
 
-Wien::Wien(QWidget *parent)
+Wien::Wien(int thisLevel, QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Wien)
 {
+    level = thisLevel;
     ui->setupUi(this);
 }
 
@@ -17,8 +18,10 @@ Wien::~Wien()
 
 void Wien::on_next_clicked()
 {
-    game_new = new Game();
-    game_new->start();
-    game_new->show();
+    delete game;
+    this->hide();
+    game = new Game(level);
+    game ->start();
+    game ->show();
 }
 

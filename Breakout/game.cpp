@@ -1,10 +1,15 @@
 #include "game.h"
-#include "ball.h"
 #include "paddle.h"
 #include "block.h"
+#include "wien.h"
 
-Game::Game(QWidget *parent): QGraphicsView(parent)
+extern Game* game;
+
+Game::Game(int thisLevel, QWidget *parent): QGraphicsView(parent)
 {
+    level = thisLevel;
+    blockCount = 0;
+
     // initialize scene
     scene = new QGraphicsScene(0,0,950,600);
     setScene(scene);
@@ -23,8 +28,9 @@ void Game::start()
 
 void Game::create_block_colomn(double x)
 {
-    for (size_t i = 0, n = 1; i < n; i++)
+    for (size_t i = 0, n = 4; i < n; i++)
     {
+        blockCount++;
         Block* block = new Block();
         block->setPos(x,i*50); // 2 space b/w blocks (50 height of block)
         scene->addItem(block);
@@ -33,7 +39,7 @@ void Game::create_block_colomn(double x)
 
 void Game::create_block_grid()
 {
-    for (size_t i = 0, n = 2; i < n; i++)
+    for (size_t i = 0, n = i; i < n; i++)
     {
         if (i % 2 == 0)
         {
@@ -45,7 +51,7 @@ void Game::create_block_grid()
 void Game::set()
 {
     // create a ball
-    Ball* ball = new Ball();
+    ball = new Ball();
     ball->setPos(475,500);
     scene->addItem(ball);
 
@@ -68,4 +74,33 @@ void Game::set()
     health->setPos(health->x(),health->y()+50);
     scene->addItem(health);
 
+}
+
+void Game::hitBlock(Block* block)
+{
+    blockCount--;
+    scene->removeItem(block);
+    delete block;
+    if(blockCount <= 0)
+    {
+        pause();
+        Wien* wien = new Wien(++level);
+        wien -> show();
+
+    }
+}
+
+void Game::pause()
+{
+    ball->endTimer();
+}
+
+void Game::play()
+{
+    ball->startTimer();
+}
+
+Game::~Game()
+{
+    delete ball;
 }

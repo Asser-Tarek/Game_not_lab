@@ -2,17 +2,19 @@
 #define BALL_H
 
 #include "joever.h"
-#include "game.h"
 #include "score.h"
 #include "health.h"
-#include "wien.h"
 #include <QGraphicsRectItem>
 #include <QGraphicsProxyWidget>
+#include <QTimer>
 
 class Ball: public QObject, public QGraphicsEllipseItem
 {
     Q_OBJECT
 public:
+
+    void endTimer();
+    void startTimer();
 
     Ball(QGraphicsItem* parent=NULL);
 
@@ -22,10 +24,10 @@ public slots:
 
     void move();
     void gameover();
-    void win();
-
 
 private:
+
+    QTimer* timer = nullptr;
 
     double xVelocity;
     double yVelocity;
@@ -33,6 +35,7 @@ private:
     void reverse_velocity_out_of_bounds();
     void paddle_collision();
     void block_collision();
+
 };
 
 #endif // BALL_H

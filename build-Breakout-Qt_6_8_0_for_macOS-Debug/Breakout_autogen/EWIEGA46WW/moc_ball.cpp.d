@@ -90,16 +90,15 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/syslimits.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
-  /Users/asser/Desktop/game_not_lab/Breakout/game.h \
   /Users/asser/Desktop/game_not_lab/Breakout/health.h \
   /Users/asser/Desktop/game_not_lab/Breakout/joever.h \
   /Users/asser/Desktop/game_not_lab/Breakout/score.h \
-  /Users/asser/Desktop/game_not_lab/Breakout/wien.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QList \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QObject \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QRect \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QSize \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QSizeF \
+  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/QTimer \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
@@ -113,6 +112,7 @@
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
@@ -210,6 +210,7 @@
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
@@ -247,10 +248,8 @@
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpen.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h \
@@ -260,7 +259,6 @@
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
@@ -271,19 +269,12 @@
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QDialog \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsProxyWidget \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsRectItem \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsScene \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsTextItem \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicslayoutitem.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsproxywidget.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicswidget.h \
-  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
