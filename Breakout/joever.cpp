@@ -21,6 +21,9 @@ Joever::Joever(QWidget *parent)
     QPixmap pic(":/pictures/its_joever.jpeg");
     QPixmap neopic = pic.scaled(471,381, Qt::KeepAspectRatio);
     ui->label->setPixmap(neopic);
+
+    QPushButton *restartButton = new QPushButton("Restart", this);
+    connect(restartButton, &QPushButton::clicked, this, &Joever::on_pushButton_2_clicked);
 }
 
 Joever::~Joever()
@@ -29,16 +32,8 @@ Joever::~Joever()
 }
 
 
-
-
-void Joever::on_pushButton_clicked()
-{
-
-}
-
-
 void Joever::on_pushButton_2_clicked()
 {
-
+    emit button2Clicked();
 }
 

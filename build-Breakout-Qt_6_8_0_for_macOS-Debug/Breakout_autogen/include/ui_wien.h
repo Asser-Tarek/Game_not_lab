@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 
 QT_BEGIN_NAMESPACE
@@ -20,15 +21,19 @@ class Ui_Wien
 {
 public:
     QPushButton *next;
+    QLabel *image;
 
     void setupUi(QDialog *Wien)
     {
         if (Wien->objectName().isEmpty())
             Wien->setObjectName("Wien");
-        Wien->resize(550, 500);
+        Wien->resize(553, 499);
         next = new QPushButton(Wien);
         next->setObjectName("next");
-        next->setGeometry(QRect(220, 420, 111, 32));
+        next->setGeometry(QRect(220, 420, 121, 32));
+        image = new QLabel(Wien);
+        image->setObjectName("image");
+        image->setGeometry(QRect(140, 90, 321, 271));
 
         retranslateUi(Wien);
 
@@ -39,6 +44,7 @@ public:
     {
         Wien->setWindowTitle(QCoreApplication::translate("Wien", "Dialog", nullptr));
         next->setText(QCoreApplication::translate("Wien", "Next", nullptr));
+        image->setText(QString());
     } // retranslateUi
 
 };

@@ -5,7 +5,11 @@
 	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/asser/Desktop/game_not_lab/Breakout",
 	"CMAKE_SOURCE_DIR" : "/Users/asser/Desktop/game_not_lab/Breakout",
 	"INCLUDE_DIR" : "/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/include",
-	"INPUTS" : [ "/Users/asser/Desktop/game_not_lab/Breakout/its_joever.jpeg" ],
+	"INPUTS" : 
+	[
+		"/Users/asser/Desktop/game_not_lab/Breakout/yippie.jpeg",
+		"/Users/asser/Desktop/game_not_lab/Breakout/its_joever.jpeg"
+	],
 	"LOCK_FILE" : "/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/Breakout_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "-name", "resources" ],

@@ -255,7 +255,7 @@ build Breakout_autogen/timestamp Breakout_autogen/mocs_compilation.cpp | ${cmake
 #############################################
 # Custom command for Breakout_autogen/EWIEGA46WW/qrc_resources.cpp
 
-build Breakout_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}Breakout_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND /Users/asser/Desktop/game_not_lab/Breakout/resources.qrc CMakeFiles/Breakout_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json /Users/asser/Desktop/game_not_lab/Breakout/its_joever.jpeg /Users/asser/Qt/6.8.0/macos/./libexec/rcc || Breakout_autogen Breakout_autogen_timestamp_deps
+build Breakout_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}Breakout_autogen/EWIEGA46WW/qrc_resources.cpp: CUSTOM_COMMAND /Users/asser/Desktop/game_not_lab/Breakout/resources.qrc CMakeFiles/Breakout_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json /Users/asser/Desktop/game_not_lab/Breakout/yippie.jpeg /Users/asser/Desktop/game_not_lab/Breakout/its_joever.jpeg /Users/asser/Qt/6.8.0/macos/./libexec/rcc || Breakout_autogen Breakout_autogen_timestamp_deps
   COMMAND = cd /Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug && /Users/asser/Qt/Tools/CMake/CMake.app/Contents/bin/cmake -E cmake_autorcc /Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/CMakeFiles/Breakout_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json Debug
   DESC = Automatic RCC for resources.qrc
   restat = 1

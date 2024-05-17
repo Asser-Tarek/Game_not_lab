@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/pictures">
         <file>its_joever.jpeg</file>
+        <file>yippie.jpeg</file>
     </qresource>
 </RCC>

@@ -34,7 +34,7 @@ namespace {
 struct qt_meta_stringdata_CLASSJoeverENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSJoeverENDCLASS = QtMocHelpers::stringData(
     "Joever",
-    "on_pushButton_clicked",
+    "button2Clicked",
     "",
     "on_pushButton_2_clicked"
 );
@@ -54,14 +54,18 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSJoeverENDCLASS[] = {
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags, initial metatype offsets
+       1,    0,   26,    2, 0x06,    1 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   26,    2, 0x08,    1 /* Private */,
        3,    0,   27,    2, 0x08,    2 /* Private */,
 
- // slots: parameters
+ // signals: parameters
     QMetaType::Void,
+
+ // slots: parameters
     QMetaType::Void,
 
        0        // eod
@@ -76,7 +80,7 @@ Q_CONSTINIT const QMetaObject Joever::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSJoeverENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<Joever, std::true_type>,
-        // method 'on_pushButton_clicked'
+        // method 'button2Clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_pushButton_2_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
@@ -90,9 +94,18 @@ void Joever::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         auto *_t = static_cast<Joever *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_pushButton_clicked(); break;
+        case 0: _t->button2Clicked(); break;
         case 1: _t->on_pushButton_2_clicked(); break;
         default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (Joever::*)();
+            if (_t _q_method = &Joever::button2Clicked; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 0;
+                return;
+            }
         }
     }
     (void)_a;
@@ -126,5 +139,11 @@ int Joever::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
         _id -= 2;
     }
     return _id;
+}
+
+// SIGNAL 0
+void Joever::button2Clicked()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 QT_WARNING_POP

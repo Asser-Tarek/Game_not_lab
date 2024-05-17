@@ -56,9 +56,20 @@ void Game::create_block_grid(int level)
 
     switch (level)
     {
+    case 1:
 
+        size = 2; // Size of the square (2x2)
+        totalWidth = size * blockWidth;
+        startX = ((screenWidth/2) - (totalWidth/2)); // Adjust startX to place the shape on the right side
 
-    case 1: // Square case or level two.
+        for (size_t i = 0; i < size; i++)
+        {
+            create_block_colomn(startX + i * blockWidth, size);
+        }
+
+        break;
+
+    case 2: // Square case or level two.
 
         size = 5; // Size of the square (5x5)
         totalWidth = size * blockWidth;
@@ -71,7 +82,7 @@ void Game::create_block_grid(int level)
 
         break;
 
-    case 2:
+    case 3:
 
         for (size_t i = 0; i < height; i++)
         {
@@ -88,7 +99,7 @@ void Game::create_block_grid(int level)
 
         break;
 
-    case 3:
+    case 4:
 
         totalWidth = height * blockWidth;
         startX = (screenWidth/2)  - totalWidth;
@@ -108,7 +119,7 @@ void Game::create_block_grid(int level)
 
         break;
 
-    case 4:
+    case 5:
 
         rectHeight = 4; // Number of rows
         rectWidth = screenWidth/50;  // Number of columns
@@ -119,12 +130,18 @@ void Game::create_block_grid(int level)
         {
             create_block_colomn(startX + i * blockWidth, rectHeight);
         }
-
-
     }
-
-
 }
+
+void Game::resetToFirstLevel()
+{
+    // Reset the game to the first level
+    level = 1;
+
+    start();
+}
+
+
 
 void Game::set()
 {

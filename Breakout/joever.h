@@ -16,10 +16,10 @@ public:
     explicit Joever(QWidget *parent = nullptr);
     ~Joever();
 
+signals:
+    void button2Clicked();
+
 private slots:
-
-
-    void on_pushButton_clicked();
 
     void on_pushButton_2_clicked();
 

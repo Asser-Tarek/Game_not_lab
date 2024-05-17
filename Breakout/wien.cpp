@@ -10,6 +10,9 @@ Wien::Wien(int thisLevel, QWidget *parent)
     level = thisLevel;
     ui->setupUi(this);
 
+    QPixmap pic(":/pictures/yippie.jpeg");
+    QPixmap neopic = pic.scaled(321,271, Qt::KeepAspectRatio);
+    ui->image->setPixmap(neopic);
 }
 
 Wien::~Wien()
