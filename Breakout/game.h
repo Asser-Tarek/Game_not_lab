@@ -20,8 +20,8 @@ public:
 
 
     void start();
-    void create_block_colomn(double x);
-    void create_block_grid();
+    void create_block_colomn(double x, double );
+    void create_block_grid(int level);
     void set();
     void hitBlock(Block* block);
     void pause();

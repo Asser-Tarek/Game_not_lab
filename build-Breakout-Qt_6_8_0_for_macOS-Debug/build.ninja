@@ -129,6 +129,14 @@ build CMakeFiles/Breakout.dir/wien.cpp.o: CXX_COMPILER__Breakout_unscanned_Debug
   OBJECT_DIR = CMakeFiles/Breakout.dir
   OBJECT_FILE_DIR = CMakeFiles/Breakout.dir
 
+build CMakeFiles/Breakout.dir/main_window.cpp.o: CXX_COMPILER__Breakout_unscanned_Debug /Users/asser/Desktop/game_not_lab/Breakout/main_window.cpp || cmake_object_order_depends_target_Breakout
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/Breakout.dir/main_window.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4 -fcolor-diagnostics
+  INCLUDES = -I/Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/include -isystem /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Headers -iframework /Users/asser/Qt/6.8.0/macos/lib -isystem /Users/asser/Qt/6.8.0/macos/mkspecs/macx-clang -isystem /Users/asser/Qt/6.8.0/macos/include -isystem /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Headers -isystem /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Headers
+  OBJECT_DIR = CMakeFiles/Breakout.dir
+  OBJECT_FILE_DIR = CMakeFiles/Breakout.dir
+
 build CMakeFiles/Breakout.dir/Breakout_autogen/EWIEGA46WW/qrc_resources.cpp.o: CXX_COMPILER__Breakout_unscanned_Debug /Users/asser/Desktop/game_not_lab/build-Breakout-Qt_6_8_0_for_macOS-Debug/Breakout_autogen/EWIEGA46WW/qrc_resources.cpp || cmake_object_order_depends_target_Breakout
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Breakout.dir/Breakout_autogen/EWIEGA46WW/qrc_resources.cpp.o.d
@@ -145,7 +153,7 @@ build CMakeFiles/Breakout.dir/Breakout_autogen/EWIEGA46WW/qrc_resources.cpp.o: C
 #############################################
 # Link the executable Breakout.app/Contents/MacOS/Breakout
 
-build Breakout.app/Contents/MacOS/Breakout: CXX_EXECUTABLE_LINKER__Breakout_Debug CMakeFiles/Breakout.dir/Breakout_autogen/mocs_compilation.cpp.o CMakeFiles/Breakout.dir/main.cpp.o CMakeFiles/Breakout.dir/game.cpp.o CMakeFiles/Breakout.dir/paddle.cpp.o CMakeFiles/Breakout.dir/block.cpp.o CMakeFiles/Breakout.dir/ball.cpp.o CMakeFiles/Breakout.dir/joever.cpp.o CMakeFiles/Breakout.dir/score.cpp.o CMakeFiles/Breakout.dir/health.cpp.o CMakeFiles/Breakout.dir/wien.cpp.o CMakeFiles/Breakout.dir/Breakout_autogen/EWIEGA46WW/qrc_resources.cpp.o | /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore || Breakout_autogen Breakout_autogen_timestamp_deps
+build Breakout.app/Contents/MacOS/Breakout: CXX_EXECUTABLE_LINKER__Breakout_Debug CMakeFiles/Breakout.dir/Breakout_autogen/mocs_compilation.cpp.o CMakeFiles/Breakout.dir/main.cpp.o CMakeFiles/Breakout.dir/game.cpp.o CMakeFiles/Breakout.dir/paddle.cpp.o CMakeFiles/Breakout.dir/block.cpp.o CMakeFiles/Breakout.dir/ball.cpp.o CMakeFiles/Breakout.dir/joever.cpp.o CMakeFiles/Breakout.dir/score.cpp.o CMakeFiles/Breakout.dir/health.cpp.o CMakeFiles/Breakout.dir/wien.cpp.o CMakeFiles/Breakout.dir/main_window.cpp.o CMakeFiles/Breakout.dir/Breakout_autogen/EWIEGA46WW/qrc_resources.cpp.o | /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore || Breakout_autogen Breakout_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.4
   LINK_LIBRARIES = -Wl,-rpath,/Users/asser/Qt/6.8.0/macos/lib  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /Users/asser/Qt/6.8.0/macos/lib/QtGui.framework/Versions/A/QtGui  /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -Xlinker -framework -Xlinker OpenGL  -Xlinker -framework -Xlinker AGL  -framework AppKit  -framework ImageIO  -framework Metal
   LINK_PATH = -iframework /Users/asser/Qt/6.8.0/macos/lib
@@ -231,7 +239,7 @@ build Breakout_autogen_timestamp_deps: phony CMakeFiles/Breakout_autogen_timesta
 #############################################
 # Utility command for Breakout_autogen
 
-build Breakout_autogen: phony CMakeFiles/Breakout_autogen Breakout_autogen/include/ui_joever.h Breakout_autogen/include/ui_wien.h Breakout_autogen/timestamp Breakout_autogen/mocs_compilation.cpp Breakout_autogen_timestamp_deps
+build Breakout_autogen: phony CMakeFiles/Breakout_autogen Breakout_autogen/include/ui_joever.h Breakout_autogen/include/ui_wien.h Breakout_autogen/include/ui_main_window.h Breakout_autogen/timestamp Breakout_autogen/mocs_compilation.cpp Breakout_autogen_timestamp_deps
 
 
 #############################################
@@ -256,13 +264,13 @@ build Breakout_autogen/EWIEGA46WW/qrc_resources.cpp | ${cmake_ninja_workdir}Brea
 #############################################
 # Phony custom command for CMakeFiles/Breakout_autogen_timestamp_deps
 
-build CMakeFiles/Breakout_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Breakout_autogen_timestamp_deps: phony /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/asser/Qt/6.8.0/macos/./libexec/moc /Users/asser/Qt/6.8.0/macos/./libexec/uic /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore
+build CMakeFiles/Breakout_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Breakout_autogen_timestamp_deps: phony /Users/asser/Qt/6.8.0/macos/lib/QtCore.framework/Versions/A/QtCore /Users/asser/Qt/6.8.0/macos/./libexec/moc /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /Users/asser/Qt/6.8.0/macos/./libexec/uic
 
 
 #############################################
 # Phony custom command for CMakeFiles/Breakout_autogen
 
-build CMakeFiles/Breakout_autogen Breakout_autogen/include/ui_joever.h Breakout_autogen/include/ui_wien.h | ${cmake_ninja_workdir}CMakeFiles/Breakout_autogen ${cmake_ninja_workdir}Breakout_autogen/include/ui_joever.h ${cmake_ninja_workdir}Breakout_autogen/include/ui_wien.h: phony Breakout_autogen/timestamp || Breakout_autogen_timestamp_deps
+build CMakeFiles/Breakout_autogen Breakout_autogen/include/ui_joever.h Breakout_autogen/include/ui_wien.h Breakout_autogen/include/ui_main_window.h | ${cmake_ninja_workdir}CMakeFiles/Breakout_autogen ${cmake_ninja_workdir}Breakout_autogen/include/ui_joever.h ${cmake_ninja_workdir}Breakout_autogen/include/ui_wien.h ${cmake_ninja_workdir}Breakout_autogen/include/ui_main_window.h: phony Breakout_autogen/timestamp || Breakout_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

@@ -10,7 +10,7 @@ Score::Score(QGraphicsItem *parent) : QGraphicsTextItem(parent)
 
     //
 
-    setPlainText(QString("Score : ") + QString::number(score)); // score 0
+    setPlainText(QString("Score: ") + QString::number(score)); // score 0
 
     setDefaultTextColor(Qt::white);
 
@@ -26,7 +26,7 @@ void Score::increase()
 
     // re-draws score with a new value
 
-    setPlainText(QString("Score : ") + QString::number(score));
+    setPlainText(QString("Score: ") + QString::number(score));
 
 
 

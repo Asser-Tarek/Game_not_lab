@@ -15,12 +15,12 @@ class Wien : public QDialog
 public:
     explicit Wien(int level = 1, QWidget *parent = nullptr);
     ~Wien();
-
+    int level;
 private slots:
     void on_next_clicked();
 
 private:
-    int level;
+
     Ui::Wien *ui;
 };
 

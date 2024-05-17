@@ -16,9 +16,10 @@ public:
     void endTimer();
     void startTimer();
 
-    Ball(QGraphicsItem* parent=NULL);
+    Ball(int level = 1, QGraphicsItem *parent = nullptr);
 
     double getCenterX();
+    int count;
 
 public slots:
 
@@ -31,6 +32,8 @@ private:
 
     double xVelocity;
     double yVelocity;
+
+    int level;
 
     void reverse_velocity_out_of_bounds();
     void paddle_collision();

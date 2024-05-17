@@ -9,6 +9,7 @@ Wien::Wien(int thisLevel, QWidget *parent)
 {
     level = thisLevel;
     ui->setupUi(this);
+
 }
 
 Wien::~Wien()

@@ -31,6 +31,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         score.h score.cpp
         health.h health.cpp
         wien.h wien.cpp wien.ui
+        main_window.h main_window.cpp main_window.ui
+
 
 
 

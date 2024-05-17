@@ -372,6 +372,12 @@
 			null
 		],
 		[
+			"/Users/asser/Desktop/game_not_lab/Breakout/main_window.h",
+			"MU",
+			"EWIEGA46WW/moc_main_window.cpp",
+			null
+		],
+		[
 			"/Users/asser/Desktop/game_not_lab/Breakout/paddle.h",
 			"MU",
 			"EWIEGA46WW/moc_paddle.cpp",
@@ -453,6 +459,11 @@
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/health.cpp", "MU", null ],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/joever.cpp", "MU", null ],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/main.cpp", "MU", null ],
+		[
+			"/Users/asser/Desktop/game_not_lab/Breakout/main_window.cpp",
+			"MU",
+			null
+		],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/paddle.cpp", "MU", null ],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/score.cpp", "MU", null ],
 		[ "/Users/asser/Desktop/game_not_lab/Breakout/wien.cpp", "MU", null ]

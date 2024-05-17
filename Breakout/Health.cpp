@@ -26,7 +26,7 @@ void Health::decrease()
 
     // re-draws health with a new value
 
-    setPlainText(QString("Health : ") + QString::number(health));
+    setPlainText(QString("Health: ") + QString::number(health));
 
 
 

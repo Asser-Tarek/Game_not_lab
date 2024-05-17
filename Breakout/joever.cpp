@@ -1,5 +1,8 @@
 #include "joever.h"
 #include "ui_joever.h"
+#include "game.h"
+
+extern Game* game;
 
 Joever::Joever(QWidget *parent)
     : QDialog(parent)
@@ -26,4 +29,16 @@ Joever::~Joever()
 }
 
 
+
+
+void Joever::on_pushButton_clicked()
+{
+
+}
+
+
+void Joever::on_pushButton_2_clicked()
+{
+
+}
 

@@ -102,6 +102,9 @@ Breakout_autogen/timestamp: \
   /Users/asser/Desktop/game_not_lab/Breakout/joever.h \
   /Users/asser/Desktop/game_not_lab/Breakout/joever.ui \
   /Users/asser/Desktop/game_not_lab/Breakout/main.cpp \
+  /Users/asser/Desktop/game_not_lab/Breakout/main_window.cpp \
+  /Users/asser/Desktop/game_not_lab/Breakout/main_window.h \
+  /Users/asser/Desktop/game_not_lab/Breakout/main_window.ui \
   /Users/asser/Desktop/game_not_lab/Breakout/paddle.cpp \
   /Users/asser/Desktop/game_not_lab/Breakout/paddle.h \
   /Users/asser/Desktop/game_not_lab/Breakout/resources.qrc \
@@ -296,6 +299,7 @@ Breakout_autogen/timestamp: \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsScene \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsTextItem \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
+  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
@@ -305,8 +309,10 @@ Breakout_autogen/timestamp: \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qgraphicswidget.h \
+  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /Users/asser/Qt/6.8.0/macos/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \

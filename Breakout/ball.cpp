@@ -6,8 +6,9 @@
 
 extern Game* game;
 
-Ball::Ball(QGraphicsItem *parent): QGraphicsEllipseItem(parent), QObject()
+Ball::Ball(int thisLevel, QGraphicsItem *parent): QGraphicsEllipseItem(parent), QObject()
 {
+    level = thisLevel;
     // draw rect
     setRect(0,0,50,50);
     QBrush brush;
@@ -17,7 +18,8 @@ Ball::Ball(QGraphicsItem *parent): QGraphicsEllipseItem(parent), QObject()
 
     // move up right initially
     xVelocity = 0;
-    yVelocity = -6;
+    yVelocity = -6 + (-1 * level);
+    count = 3;
 
 
     startTimer();
@@ -43,7 +45,7 @@ double Ball::getCenterX()
 {
     return x() + rect().width()/2;
 }
-int count = 3;
+
 void Ball::move()
 {
     // if out of bounds, reverse the velocity
@@ -192,7 +194,7 @@ void Ball::gameover()
     QGraphicsProxyWidget *proxy = new QGraphicsProxyWidget();
     proxy->setWidget(joever);
     scene()->addItem(proxy);
-    proxy->setPos(190,50);
+    proxy->setPos(225,50);
 
     game->pause();
 }
