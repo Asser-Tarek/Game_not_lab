@@ -4,26 +4,16 @@
 
 extern Game* game;
 
-Joever::Joever(QWidget *parent)
+Joever::Joever(int thislevel,QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Joever)
 {
+    level = thislevel;
     ui->setupUi(this);
-
-    setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
-
-    setAttribute(Qt::WA_NoSystemBackground);
-    setAttribute(Qt::WA_TranslucentBackground);
-    setAttribute(Qt::WA_PaintOnScreen);
-
-    setAttribute(Qt::WA_TransparentForMouseEvents);
 
     QPixmap pic(":/pictures/its_joever.jpeg");
     QPixmap neopic = pic.scaled(471,381, Qt::KeepAspectRatio);
     ui->label->setPixmap(neopic);
-
-    QPushButton *restartButton = new QPushButton("Restart", this);
-    connect(restartButton, &QPushButton::clicked, this, &Joever::on_pushButton_2_clicked);
 }
 
 Joever::~Joever()
@@ -34,6 +24,10 @@ Joever::~Joever()
 
 void Joever::on_pushButton_2_clicked()
 {
-    emit button2Clicked();
+    delete game;
+    this->hide();
+    game = new Game(level = 1);
+    game ->start();
+    game ->show();
 }
 

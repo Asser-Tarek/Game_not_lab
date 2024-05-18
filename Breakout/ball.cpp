@@ -73,7 +73,7 @@ void Ball::move()
 
         if(count==0){
 
-            gameover();
+            game->gameover();
 
         }
     }
@@ -182,19 +182,3 @@ void Ball::block_collision()
     }
 }
 
-void Ball::gameover()
-{
-    for(size_t i = 0, n = scene()->items().size(); i < n; i++)
-    {
-        scene()->items()[i] -> setEnabled(false);
-    }
-
-
-    Joever* joever = new Joever();
-    QGraphicsProxyWidget *proxy = new QGraphicsProxyWidget();
-    proxy->setWidget(joever);
-    scene()->addItem(proxy);
-    proxy->setPos(225,50);
-
-    game->pause();
-}

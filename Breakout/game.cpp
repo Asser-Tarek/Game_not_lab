@@ -133,15 +133,6 @@ void Game::create_block_grid(int level)
     }
 }
 
-void Game::resetToFirstLevel()
-{
-    // Reset the game to the first level
-    level = 1;
-
-    start();
-}
-
-
 
 void Game::set()
 {
@@ -185,6 +176,22 @@ void Game::hitBlock(Block* block)
 
     }
 }
+
+void Game::gameover()
+{
+    for(size_t i = 0, n = scene->items().size(); i < n; i++)
+    {
+        scene->items()[i] -> setEnabled(false);
+    }
+
+
+    Joever* joever = new Joever(level);
+    joever->show();
+
+
+    game->pause();
+}
+
 
 void Game::pause()
 {

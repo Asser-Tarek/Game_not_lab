@@ -24,7 +24,6 @@ public:
 public slots:
 
     void move();
-    void gameover();
 
 private:
 

@@ -26,13 +26,8 @@ public:
     void hitBlock(Block* block);
     void pause();
     void play();
-    void setCurrentLevel(int level);
-    void resetGame();
-    void resetToFirstLevel();
+    void gameover();
 
-
-
-    void on_pushButton_2_clicked();
 
     QGraphicsScene* scene;
     Score* score;

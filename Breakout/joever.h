@@ -13,11 +13,8 @@ class Joever : public QDialog
     Q_OBJECT
 
 public:
-    explicit Joever(QWidget *parent = nullptr);
+    explicit Joever(int level = 1,QWidget *parent = nullptr);
     ~Joever();
-
-signals:
-    void button2Clicked();
 
 private slots:
 
@@ -25,6 +22,7 @@ private slots:
 
 private:
     Ui::Joever *ui;
+    int level;
 };
 
 #endif // JOEVER_H

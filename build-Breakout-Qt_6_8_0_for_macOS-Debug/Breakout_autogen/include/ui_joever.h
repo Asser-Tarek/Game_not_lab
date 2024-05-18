@@ -21,7 +21,6 @@ class Ui_Joever
 {
 public:
     QLabel *label;
-    QPushButton *pushButton;
     QPushButton *pushButton_2;
 
     void setupUi(QDialog *Joever)
@@ -32,12 +31,9 @@ public:
         label = new QLabel(Joever);
         label->setObjectName("label");
         label->setGeometry(QRect(57, 25, 431, 371));
-        pushButton = new QPushButton(Joever);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(49, 431, 171, 51));
         pushButton_2 = new QPushButton(Joever);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(329, 431, 171, 51));
+        pushButton_2->setGeometry(QRect(190, 430, 171, 51));
 
         retranslateUi(Joever);
 
@@ -48,7 +44,6 @@ public:
     {
         Joever->setWindowTitle(QCoreApplication::translate("Joever", "Dialog", nullptr));
         label->setText(QString());
-        pushButton->setText(QCoreApplication::translate("Joever", "Back to menu", nullptr));
         pushButton_2->setText(QCoreApplication::translate("Joever", "Restart", nullptr));
     } // retranslateUi
 
